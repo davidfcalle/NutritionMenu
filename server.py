@@ -51,4 +51,4 @@ if __name__ == '__main__':
     load_csv(fname)
     print len(foods)
     #web server
-    app.run(port=8080, host="0.0.0.0")
+    app.run(port=5000, host="0.0.0.0")
